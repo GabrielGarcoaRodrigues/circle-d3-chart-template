@@ -8,10 +8,6 @@ function bubblesChart() {
           children: [{ name: "Jogar domino no Carnaval", value: 1 }],
         },
         {
-          name: "Testando",
-          children: [{ name: "TEstando 2", value: 34 }],
-        },
-        {
           name: "Atividades Sociais e Familiares",
           children: [
             { name: "Permanecer em casa durante o Carnaval", value: 24 },
@@ -39,7 +35,7 @@ function bubblesChart() {
           ],
         },
         {
-          name: "Consumo de Bebidas e Comportamento Relacionado",
+          name: "Consumo de Bebidas",
           children: [
             { name: "Vou beber cerveja no Carnaval", value: 4 },
             { name: "Vou beber bastante no Carnaval", value: 50 },
@@ -102,461 +98,13 @@ function bubblesChart() {
         },
       ],
     }
-  // const data = {
-  //   name: "Produtos",
-  //   children: [
-  //     {
-  //       name: "Acessórios",
-  //       children: [
-  //         { name: "Óculos", value: 14 },
-  //         { name: "Óculos de Sol", value: 2 },
-  //         { name: "Pulseira", value: 10 },
-  //         { name: "Brinco", value: 2 },
-  //         { name: "Brincos", value: 3 },
-  //         { name: "Mochila", value: 7 },
-  //         { name: "Chilli Beans", value: 1 },
-  //         { name: "Relógio", value: 30 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Alimentação",
-  //       children: [
-  //         { name: "Pringles", value: 1 },
-  //         { name: "Doce", value: 6 },
-  //         { name: "Suplementos", value: 5 },
-  //         { name: "Coxinha", value: 2 },
-  //         { name: "Kinder", value: 1 },
-  //         { name: "Sorvete", value: 1 },
-  //         { name: "Hambúrguer", value: 1 },
-  //         { name: "Banana", value: 1 },
-  //         { name: "Manteiga", value: 2 },
-  //         { name: "Cesta Básica", value: 4 },
-  //         { name: "Nutella", value: 1 },
-  //         { name: "Chocolate", value: 7 },
-  //         { name: "Lanche", value: 1 },
-  //         { name: "Comida", value: 9 },
-  //         { name: "iFood", value: 4 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Automóveis",
-  //       children: [
-  //         { name: "Óleo", value: 7 },
-  //         { name: "Citroen", value: 1 },
-  //         { name: "Carro", value: 17 },
-  //         { name: "Amortecedores", value: 1 },
-  //         { name: "Pneu", value: 6 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Bebidas",
-  //       children: [
-  //         { name: "Bebida", value: 2 },
-  //         { name: "Café", value: 9 },
-  //         { name: "Nespresso", value: 2 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Bebidas Alcoólicas",
-  //       children: [
-  //         { name: "Whisky", value: 3 },
-  //         { name: "Brahma", value: 1 },
-  //         { name: "Cerveja", value: 1 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Beleza",
-  //       children: [
-  //         { name: "Protetor Solar", value: 16 },
-  //         { name: "Oceane", value: 6 },
-  //         { name: "Sombra", value: 8 },
-  //         { name: "Peruca", value: 2 },
-  //         { name: "Sabonete", value: 13 },
-  //         { name: "Shampoo", value: 21 },
-  //         { name: "Aliança", value: 5 },
-  //         { name: "Condicionador", value: 4 },
-  //         { name: "Secador", value: 13 },
-  //         { name: "Delineador", value: 1 },
-  //         { name: "L'Oreal", value: 3 },
-  //         { name: "Anel", value: 19 },
-  //         { name: "Desodorante", value: 3 },
-  //         { name: "Bronzeador", value: 1 },
-  //         { name: "Cosmeticos", value: 7 },
-  //         { name: "Off", value: 112 },
-  //         { name: "Escova de dente", value: 2 },
-  //         { name: "Sabonete facial", value: 1 },
-  //         { name: "Esmalte", value: 1 },
-  //         { name: "Chapinha", value: 5 },
-  //         { name: "Maquiagem", value: 31 },
-  //         { name: "Creme", value: 13 },
-  //         { name: "Escova", value: 12 },
-  //         { name: "Hidratante", value: 53 },
-  //         { name: "Nivea", value: 1 },
-  //         { name: "Perfumes", value: 15 },
-  //         { name: "Niacinamida", value: 2 },
-  //         { name: "Tatuagem", value: 2 },
-  //         { name: "Dove", value: 1 },
-  //         { name: "Mac", value: 1 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Cama, Mesa e Banho",
-  //       children: [
-  //         { name: "Toalha", value: 3 },
-  //         { name: "Lençol", value: 5 },
-  //         { name: "Travesseiro", value: 3 },
-  //         { name: "Colchão", value: 11 },
-  //         { name: "Box", value: 83 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Decoração",
-  //       children: [
-  //         { name: "Luminária", value: 2 },
-  //         { name: "Miniatura", value: 1 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Eletrodoméstico",
-  //       children: [
-  //         { name: "Maquina de Lavar", value: 18 },
-  //         { name: "Forno elétrico", value: 1 },
-  //         { name: "Fritadeira elétrica", value: 4 },
-  //         { name: "Liquidificador", value: 5 },
-  //         { name: "Microondas", value: 9 },
-  //         { name: "AirFryer", value: 10 },
-  //         { name: "Eletrodoméstico", value: 2 },
-  //         { name: "Cooktop", value: 2 },
-  //         { name: "Ar Condicionado", value: 14 },
-  //         { name: "Processador de alimentos", value: 1 },
-  //         { name: "Lava-louças", value: 2 },
-  //         { name: "Tanquinho", value: 1 },
-  //         { name: "Fogão", value: 14 },
-  //         { name: "Forno de embutir", value: 1 },
-  //         { name: "Pipoqueira", value: 2 },
-  //         { name: "Lava e Seca", value: 6 },
-  //         { name: "Geladeira", value: 26 },
-  //         { name: "Cafeteira", value: 8 },
-  //         { name: "Mixer", value: 5 },
-  //         { name: "Grill", value: 1 },
-  //         { name: "Aspirador de po", value: 7 },
-  //         { name: "Sanduicheira", value: 1 },
-  //         { name: "Aquecedor", value: 2 },
-  //         { name: "Freezer", value: 1 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Eletrônicos",
-  //       children: [
-  //         { name: "Asus", value: 1 },
-  //         { name: "Telefone", value: 18 },
-  //         { name: "Canon", value: 2 },
-  //         { name: "TV", value: 141 },
-  //         { name: "iPhone", value: 142 },
-  //         { name: "Celular", value: 290 },
-  //         { name: "Kindle", value: 161 },
-  //         { name: "Headset", value: 10 },
-  //         { name: "Televisao", value: 15 },
-  //         { name: "JBL", value: 12 },
-  //         { name: "Echo Dot", value: 4 },
-  //         { name: "Memoria Ram", value: 1 },
-  //         { name: "Samsung", value: 25 },
-  //         { name: "Kindle Paperwhite", value: 2 },
-  //         { name: "ArmyBomb", value: 1 },
-  //         { name: "Apple", value: 14 },
-  //         { name: "Xbox", value: 23 },
-  //         { name: "Roteador", value: 1 },
-  //         { name: "Positivo", value: 3 },
-  //         { name: "CD", value: 9 },
-  //         { name: "Ventilador", value: 11 },
-  //         { name: "iPad", value: 15 },
-  //         { name: "SSD", value: 19 },
-  //         { name: "AOC", value: 1 },
-  //         { name: "Camera", value: 13 },
-  //         { name: "Smartphone", value: 6 },
-  //         { name: "Processador", value: 11 },
-  //         { name: "Nintendo Switch", value: 24 },
-  //         { name: "Switch", value: 59 },
-  //         { name: "Ryzen", value: 3 },
-  //         { name: "Eletrônicos", value: 12 },
-  //         { name: "Redmi", value: 2 },
-  //         { name: "Edifier", value: 1 },
-  //         { name: "Buds", value: 3 },
-  //         { name: "Pichau", value: 1 },
-  //         { name: "Redragon", value: 1 },
-  //         { name: "Smart Speaker", value: 3 },
-  //         { name: "Xiaomi", value: 12 },
-  //         { name: "Caixa de som", value: 3 },
-  //         { name: "HD", value: 11 },
-  //         { name: "Tablet", value: 25 },
-  //         { name: "Polaroid", value: 4 },
-  //         { name: "Impressora", value: 9 },
-  //         { name: "Vibrador", value: 2 },
-  //         { name: "Monitor", value: 46 },
-  //         { name: "Notebook", value: 174 },
-  //         { name: "Smartwatch", value: 6 },
-  //         { name: "AMD", value: 2 },
-  //         { name: "DELL", value: 7 },
-  //         { name: "Video Game", value: 5 },
-  //         { name: "Intel", value: 2 },
-  //         { name: "Mouse Pad", value: 2 },
-  //         { name: "LG", value: 3 },
-  //         { name: "Headphone", value: 5 },
-  //         { name: "Americanas", value: 44 },
-  //         { name: "Acer", value: 3 },
-  //         { name: "Fone de Ouvido", value: 7 },
-  //         { name: "Alexa", value: 44 },
-  //         { name: "Smartband", value: 1 },
-  //         { name: "Motorola", value: 12 },
-  //         { name: "DVDs", value: 1 },
-  //         { name: "PlayStation", value: 6 },
-  //         { name: "Home theater", value: 1 },
-  //         { name: "Airpod", value: 1 },
-  //         { name: "Teclado", value: 18 },
-  //         { name: "Computador", value: 21 },
-  //         { name: "Kabum", value: 7 },
-  //         { name: "Mouse", value: 12 },
-  //         { name: "Notebook Gamer", value: 3 },
-  //         { name: "Philips", value: 2 },
-  //         { name: "HD Externo", value: 1 },
-  //         { name: "Console", value: 20 },
-  //         { name: "Rádio", value: 4 },
-  //         { name: "Dyson", value: 1 },
-  //         { name: "Gabinete", value: 3 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Estudos",
-  //       children: [
-  //         { name: "Curso", value: 25 },
-  //         { name: "E-books", value: 2 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Eventos",
-  //       children: [
-  //         { name: "Festival", value: 5 },
-  //         { name: "Show", value: 44 },
-  //         { name: "Ingresso", value: 21 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Games",
-  //       children: [
-  //         { name: "Zelda", value: 1 },
-  //         { name: "Jogos", value: 69 },
-  //         { name: "DLC", value: 2 },
-  //         { name: "Steam", value: 12 },
-  //         { name: "GTA", value: 1 },
-  //         { name: "Cadeira Gamer", value: 7 },
-  //         { name: "Fifa", value: 14 },
-  //         { name: "Bayonetta", value: 11 },
-  //         { name: "Sonic", value: 13 },
-  //         { name: "Sony", value: 2 },
-  //         { name: "Resident Evil", value: 3 },
-  //         { name: "The Sims", value: 5 },
-  //         { name: "Games", value: 25 },
-  //         { name: "God Of War", value: 1 },
-  //         { name: "Epic Games", value: 1 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Itens domésticos",
-  //       children: [
-  //         { name: "Pano", value: 3 },
-  //         { name: "Tinta", value: 4 },
-  //         { name: "Balde", value: 5 },
-  //         { name: "Amaciante", value: 17 },
-  //         { name: "Luva", value: 1 },
-  //         { name: "Rodo", value: 1 },
-  //         { name: "Papel Higiênico", value: 4 },
-  //         { name: "Esponja", value: 1 },
-  //         { name: "Lixeira", value: 1 },
-  //         { name: "Vassoura", value: 2 },
-  //         { name: "Sabão em pó", value: 1 },
-  //         { name: "Prego", value: 1 },
-  //         { name: "Detergente", value: 1 },
-  //         { name: "Lâmpada", value: 4 },
-  //         { name: "Cano", value: 1 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Lazer",
-  //       children: [
-  //         { name: "Carrinho", value: 90 },
-  //         { name: "Aposta", value: 1 },
-  //         { name: "Piscina", value: 703 },
-  //         { name: "Bola", value: 1 },
-  //         { name: "Boneca", value: 4 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Livraria",
-  //       children: [
-  //         { name: "Livraria", value: 6 },
-  //         { name: "Bíblia", value: 2 },
-  //         { name: "Gibi", value: 1 },
-  //         { name: "Sandman", value: 1 },
-  //         { name: "Livro", value: 661 },
-  //         { name: "Saraiva", value: 5 },
-  //         { name: "Manga", value: 19 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Móveis",
-  //       children: [
-  //         { name: "Sofa", value: 16 },
-  //         { name: "Varal", value: 1 },
-  //         { name: "Armário", value: 7 },
-  //         { name: "Cadeira", value: 64 },
-  //         { name: "Estante", value: 31 },
-  //         { name: "Berço", value: 2 },
-  //         { name: "Polishop", value: 1 },
-  //         { name: "Cama Box", value: 9 },
-  //         { name: "Escrivaninha", value: 2 },
-  //         { name: "Móveis", value: 20 },
-  //         { name: "FlexForm", value: 4 },
-  //         { name: "Mesa", value: 15 },
-  //         { name: "Espelho", value: 4 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Música",
-  //       children: [
-  //         { name: "Vinil", value: 19 },
-  //         { name: "Microfone", value: 4 },
-  //         { name: "Disco", value: 1 },
-  //         { name: "Violao", value: 1 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Papelaria",
-  //       children: [
-  //         { name: "Mochila", value: 7 },
-  //         { name: "Caneta", value: 5 },
-  //         { name: "Kalunga", value: 1 },
-  //         { name: "Caderno", value: 2 },
-  //         { name: "Cola", value: 1 },
-  //         { name: "Panini", value: 6 },
-  //         { name: "Papelaria", value: 2 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Pet",
-  //       children: [
-  //         { name: "Racao", value: 8 },
-  //         { name: "Zeedog", value: 6 },
-  //         { name: "Coleira", value: 2 },
-  //         { name: "Guia", value: 16 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Remédios",
-  //       children: [
-  //         { name: "Remedio", value: 5 },
-  //         { name: "Pomada", value: 2 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Saúde",
-  //       children: [
-  //         { name: "Bicicleta", value: 7 },
-  //         { name: "Absorvente", value: 1 },
-  //         { name: "Máscara", value: 1 },
-  //         { name: "Garrafinha", value: 1 },
-  //         { name: "Whey", value: 23 },
-  //         { name: "Growth", value: 3 },
-  //         { name: "Academia", value: 16 },
-  //         { name: "Creatina", value: 7 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Utensílios de Cozinha",
-  //       children: [
-  //         { name: "Batedeira", value: 2 },
-  //         { name: "Caneca", value: 1 },
-  //         { name: "Escorredor", value: 1 },
-  //         { name: "Panela de Pressão", value: 8 },
-  //         { name: "Guarda roupa", value: 8 },
-  //         { name: "Taca", value: 1 },
-  //         { name: "Copo", value: 2 },
-  //         { name: "Frigideira", value: 3 },
-  //         { name: "Prato", value: 1 },
-  //         { name: "Liquidificador", value: 5 },
-  //         { name: "Panela", value: 21 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Vestuário",
-  //       children: [
-  //         { name: "Cropped", value: 1 },
-  //         { name: "Salto", value: 1 },
-  //         { name: "Puffer", value: 1 },
-  //         { name: "Biquinis", value: 5 },
-  //         { name: "Luva", value: 1 },
-  //         { name: "Havaianas", value: 3 },
-  //         { name: "Chuteira", value: 2 },
-  //         { name: "Sapato", value: 12 },
-  //         { name: "Roupa", value: 130 },
-  //         { name: "Riachuelo", value: 5 },
-  //         { name: "Tenis", value: 99 },
-  //         { name: "Vestido", value: 8 },
-  //         { name: "Adidas", value: 32 },
-  //         { name: "Baw", value: 10 },
-  //         { name: "Blusa", value: 7 },
-  //         { name: "Calvin Klein", value: 1 },
-  //         { name: "Calca", value: 17 },
-  //         { name: "Lingerie", value: 6 },
-  //         { name: "Vans", value: 5 },
-  //         { name: "Sapatilhas", value: 3 },
-  //         { name: "Meia", value: 140 },
-  //         { name: "Arezzo", value: 1 },
-  //         { name: "Fralda", value: 10 },
-  //         { name: "Renner", value: 3 },
-  //         { name: "Nike", value: 28 },
-  //         { name: "Crocs", value: 3 },
-  //         { name: "Cueca", value: 6 },
-  //         { name: "Centauro", value: 2 },
-  //         { name: "Bone", value: 3 },
-  //         { name: "Capa", value: 17 },
-  //         { name: "Sapatos", value: 5 },
-  //         { name: "Camiseta", value: 12 },
-  //         { name: "Moletom", value: 10 },
-  //         { name: "Sandália", value: 6 },
-  //         { name: "Bolsa", value: 14 },
-  //         { name: "Calca jeans", value: 1 },
-  //         { name: "Jaqueta", value: 3 },
-  //         { name: "Guarda Roupa", value: 8 },
-  //         { name: "Body", value: 2 },
-  //         { name: "Uniforme", value: 1 },
-  //         { name: "Camisa", value: 45 },
-  //         { name: "Calcinha", value: 8 },
-  //         { name: "Puma", value: 3 },
-  //         { name: "Casaco", value: 1 },
-  //       ],
-  //     },
-  //     {
-  //       name: "Viagens",
-  //       children: [
-  //         { name: "CVC", value: 1 },
-  //         { name: "Viagem", value: 37 },
-  //         { name: "Hotel", value: 2 },
-  //         { name: "Mala", value: 9 },
-  //         { name: "Passagens", value: 40 },
-  //         { name: "Buser", value: 1 },
-  //         { name: "Barraca", value: 1 },
-  //         { name: "Pacote de Viagem", value: 10 },
-  //         { name: "Passagem", value: 72 },
-  //       ],
-  //     },
-  //   ],
-  // };
+  
 
   // Specify the dimensions of the chart.
+  
   const width = 500;
   const height = width;
   const margin = 1; // to avoid clipping the root circle stroke
-
   // Specify the number format for values.
   const format = d3.format(",d");
 
@@ -575,12 +123,39 @@ function bubblesChart() {
       .sum((d) => d.value)
       .sort((a, b) => b.value - a.value)
   );
+  
+  // const zoom = d3
+  //   .zoom()
+  //   .scaleExtent([1, 5])
+  //   .on("zoom", (event) => {
+  //     nodesGroup.attr("transform", event.transform);
+  //   });
+  d3.selectAll('circle')
+  .on('click', function(event, d) {
 
-  const zoom = d3
-    .zoom()
-    .scaleExtent([1, 5])
-    .on("zoom", (event) => {
-      nodesGroup.attr("transform", event.transform);
+    // Determina o ponto focal do zoom
+    var x = d.x;
+    var y = d.y;
+    var r = d.r;
+    
+    // Calcula o fator de escala necessário para que a bolha clicada se ajuste na tela
+    var scaleFactor = Math.min(width / (r * 2), height / (r * 2));
+
+    // Calcula as posições para centralizar a bolha
+    var translateX = width / 2 - scaleFactor * x;
+    var translateY = height / 2 - scaleFactor * y;
+
+    // Define a transformação de zoom
+    var zoomTransform = d3.zoomIdentity.translate(translateX, translateY).scale(scaleFactor);
+  });
+
+
+// // Definição do comportamento de zoom
+  var zoom = d3.zoom()
+    .scaleExtent([1, 40])  // Limites de zoom
+    .translateExtent([[0, 0], [width, height]]) // Limites de translação
+    .on('zoom', function(event) {
+      nodesGroup.attr('transform', event.transform);
     });
 
   // Create the SVG container.
@@ -593,6 +168,16 @@ function bubblesChart() {
     .attr("style", "width: 100%; height: 750px; font: 10px sans-serif;")
     .attr("text-anchor", "middle");
 
+  // Cria um ouvinte de eventos no fundo do SVG para resetar o zoom
+  svg.on('click', function(event) {
+    // Verifica se o clique ocorreu diretamente no svg e não em um elemento filho
+    if (event.target.tagName === 'svg') {
+      svg.transition()
+        .duration(500)
+        .call(zoom.transform, d3.zoomIdentity); // Resetar para transformação de identidade
+    }
+  });
+
   var nodesGroup = svg.append("g");
 
   // Place each node according to the layout’s x and y values.
@@ -603,6 +188,7 @@ function bubblesChart() {
     .attr("transform", (d) => `translate(${d.x},${d.y})`);
 
   nodesGroup.call(zoom);
+  
   // Add a title.
   node.append("title").text(
     (d) =>
@@ -672,7 +258,7 @@ function bubblesChart() {
   const categoriesText = node
     .filter((d) => d.children != null)
     .append("text")
-    .style("font-size", (d) => `${d.r / 6}px`)
+    .style("font-size", (d) => `${d.r / 7}px`)
     .attr("fill", "#fff")
     // Anexar um elemento textPath
     .append("textPath")
@@ -686,6 +272,42 @@ function bubblesChart() {
     .style("font-weight", "bold");
 
   categoriesText.filter((d) => d.depth == 0).text("");
+  
+     // Create the zoom behavior and zoom immediately in to the initial focus node.
+  svg.on("click", (event) => zoom(event, root));
+  let focus = root;
+  let view;
+  zoomTo([focus.x, focus.y, focus.r * 2]);
+
+  function zoomTo(v) {
+    const k = width / v[2];
+
+    view = v;
+
+    label.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
+    node.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
+    node.attr("r", d => d.r * k);
+  }
+
+  function zoom(event, d) {
+    const focus0 = focus;
+
+    focus = d;
+
+    const transition = svg.transition()
+        .duration(event.altKey ? 7500 : 750)
+        .tween("zoom", d => {
+          const i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2]);
+          return t => zoomTo(i(t));
+        });
+
+    label
+      .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
+      .transition(transition)
+        .style("fill-opacity", d => d.parent === focus ? 1 : 0)
+        .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
+        .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
+  }
 
   return svg.node();
 }
@@ -717,4 +339,5 @@ function adjustTone(color, depth) {
   // Ajuste o multiplicador conforme necessário
   else return color;
 }
+
 bubblesChart();
